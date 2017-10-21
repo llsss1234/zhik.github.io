@@ -1,0 +1,31 @@
+---
+layout: default
+title: zhi's site
+---
+<div class="content">
+<h2>A few things about myself:</h2>
+        
+<p>I love programming, data and GIS. I am studying Geography at Hunter College and currently a College Aid at the DOT. </p>
+
+<p><a href="{{ site.url }}/resume.pdf">resume</a></p>
+
+<p>I don't have many hobbies (sometimes I bike) But I like helping out and teaching others programming.</p>
+  
+<p>My last github pages broke and I didn't want to spend to much to reconfig it, I will keep this simple one and <strong>start writing (blogs and tutorials), be more social :) and develop my thoughts and skills.</strong> </p>
+        
+<p>I will try to keep most of it short and to the point. hopefully I post often.</p>
+
+
+<h2>posts and projects:</h2>
+<div class='post-box'>
+    {% for post in site.posts %}
+    <div class='post-item'>
+        <a href="{{ post.url }}">
+            <img src="images/{{ post.image }}">
+            <h3>{{ post.title }}</h3>
+            <p class="description">{{ post.description }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+</div>

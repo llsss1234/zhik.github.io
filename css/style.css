@@ -1,0 +1,66 @@
+/* adapted from http://jgthms.com/web-design-in-4-minutes/ */
+
+.content {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 1em 1em;
+    font-family: Verdana ,sans-serif;
+    color: #555;
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+
+a {
+    color: #e81c4f;
+  }
+
+
+.post-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.post-item{
+  text-align: center;
+  width: 300px;
+  height: 340px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px;
+}
+
+.post-item img{
+  width: 100%;
+}
+
+.description{
+  font-size: 70%;
+  font-style: italic; 
+}
+
+.post-item a{
+  color: #333;
+  text-decoration: none;
+}
+
+.post-item a:hover{
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.45);
+}
+
